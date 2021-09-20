@@ -1,0 +1,40 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "TZ=Asia/Almaty node ./src/index.js #back-sms",
+    "debug": "nodemon ./src/index.js",
+    "lint": "npx eslint src/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/m-lombard/back-sms#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.24.0",
+    "express": "^4.17.1",
+    "express-mongo-db": "^2.0.4",
+    "helmet": "^4.4.1",
+    "luxon": "^1.26.0",
+    "mongoose": "^5.12.3",
+    "swagger-ui-express": "^4.1.6",
+    "urlencode": "^1.1.0",
+    "uuid": "^8.3.2",
+    "xml-js": "^1.6.11",
+    "winston": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-lombard/back-sms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m-lombard/back-sms/issues"
+  }
+}
